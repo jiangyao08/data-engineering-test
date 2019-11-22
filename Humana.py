@@ -17,8 +17,8 @@ def getFirstPart(partLine):
     return( s )
 
 
-dataFileName = "data.tsv"
-outPutFile = "new_data.tsv"
+dataFileName = "data\data.tsv"
+outPutFile = "data\new_data.tsv"
 
 # Open data.tsv with "utf-16le" encoding
 dataFile = open(dataFileName, mode='r', encoding='utf-16le' )
